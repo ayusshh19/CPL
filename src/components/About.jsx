@@ -45,14 +45,14 @@ const About = () => {
       </motion.div>
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 max-md:mt-8 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         The Coding Premier League Event is designed as a league of competitive coding contests with the fundamental goal of enhancing participants' skills. This platform allows participants to delve deeper into the realm of competitive programming, providing invaluable exposure to this field.
       </motion.p>
     </div>
   
     <div className='md:col-span-5 col-span-12 md:row-span-2  grid grid-cols-6 gap-2'>
-      <div className='col-span-3 gap-2 grid max-w-full md:max-w-none  max-md:mt-4'>
+      <div className='col-span-3 gap-2 grid max-w-full md:max-w-none  max-md:mt-12'>
         <img className='rounded-lg w-full md:w-auto' src={img} alt="" />
         <img className='rounded-md w-full md:w-auto' src={img} alt="" />
       </div>
