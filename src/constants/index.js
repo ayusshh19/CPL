@@ -106,7 +106,7 @@ const experiences = [
     date: '....',
     points: [
       'Eligibility : For all year Student',
-      'Prerequiestic : Basic Data Structure, Basic understanding of sny programming language, Basic understanding of Loops, conditional Statement, And variable Declaration',
+      'Prerequiestic : Basic Data Structure, Basic understanding of any programming language, Basic understanding of Loops, conditional Statement, And variable Declaration',
       'Prize: Goodies, Trophies And Certificate To All Finalist',
       'Registration Fee for single student - 30rs.',
       'Registration Fee for Team of two - 50rs.',
