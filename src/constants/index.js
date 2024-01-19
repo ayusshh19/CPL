@@ -99,57 +99,53 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Machine Learning Intern',
+    title: 'Registration',
     company_name: 'Microsoft',
     icon: microsoft,
-    iconBg: '#383E56',
-    date: 'June 2019 - July 2019',
+    iconBg: '#FFFFFF',
+    date: '....',
     points: [
-      'Completed a summer internship in Machine Learning using Python with A+ grade.',
-      'Worked on analysis of machine learning algorithms for detecting abnormalities and electricity theft.',
-      'Analyzed data from smart meters to train Linear, Quadratic Regression models to predict theft with a minimum RMSE value of 0.06.',
-      'Participating in code reviews and providing feedback on machine learning code and implementations.',
+      'Eligibility : For all year Student',
+      'Prerequiestic : Basic Data Structure, Basic understanding of any programming language, Basic understanding of Loops, conditional Statement, And variable Declaration',
+      'Prize: Goodies, Trophies And Certificate To All Finalist',
+      'Registration Fee for single student - 30rs.',
+      'Registration Fee for Team of two - 50rs.',
+
+      
     ],
   },
   {
-    title: 'Robotics Workshop',
+    title: 'Round One',
     company_name: 'Adani Institute of Infrastructure Engineering',
     icon: adani,
-    iconBg: '#E6DEDD',
-    date: 'Mar 2019 - Aug 2019',
+    iconBg: '#FFFFFF',
+    date: '11 AM To 12.30 PM ',
     points: [
-      'Leader of a research team that created and manipulated a robot through Arduino programming which cleans and paints the chimney of a thermal power plant.',
-      'Conducting robotics workshop for junior students.',
-      'Planning a monthly schedule of team operation.',
-      'Building and assembling robots as part of hands-on sessions.',
+      'Timing - ....',
+      'Question Format - 10 question , easy to moderate.',
+      'Elimination Round - Assessment after 10 questions.',
+      'Using Google for Reference - Allowed during scheduled 25-minute breaks.',
+      'Scoring System - Points based on question difficulty. ',
     ],
   },
   {
-    title: 'Data Science Intern',
+    title: 'Round Two',
     company_name: 'BN Technologies',
     icon: bn_software,
-    iconBg: '#383E56',
-    date: 'Mar 2021 - Aug 2021',
+    iconBg: '#FFFFFF',
+    date: '2 PM To 4 PM',
     points: [
-      'Worked on Time Series-based Data Analysis for Taxi Service.',
-      'Created analysis and visualisation tools to analyse the behaviour of our agents.',
-      'Implemented a Recommendation Systems for our delivery application.',
-      'Staying updated with the latest advancements and best practices in data science through self-learning and research.',
+      'Timing - ....',
+      'Qualification - Only the top 10 participants from round 1 proceed to round 2. ',
+      'Question Format - Similar to round 1, with a mix of difficulties. ',
+      'Using Google for Reference - Participants can use Google for reference during scheduled 15-minute breaks. ',
+      'Scoring System - Points based on question difficulty. ',
+      'Certificates- All participants in round 2 receive certificates of participation. ',
+      'Final Winner Determination - The participant with the highest score in round 2 is declared the overall winner. ',
+ 
     ],
   },
-  {
-    title: 'Master Internship: 3GPP RAN4 AI',
-    company_name: 'Ericsson',
-    icon: ericsson,
-    iconBg: '#E6DEDD',
-    date: 'Mar 2023 - Present',
-    points: [
-      'Working on optimization of OFDM using Deep Learning.',
-      'Currently working on cGAN and trying to develop an advanced algorithm for optimization of OFDM.',
-      'Reviewed state of the art on OFDM 5G NR and developed a novel solution for the project task.',
-      'Learning about 3GPP 5G NR standard through mentors, video lectures and meetings.',
-    ],
-  },
+ 
 ];
 
 const testimonials = [
