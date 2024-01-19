@@ -44,20 +44,14 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        As a seasoned AI Engineer proficient in Python and Machine Learning, I
-        bring a wealth of experience and a proven track record in successfully
-        executing large-scale projects. With a strong foundation in cutting-edge
-        algorithms, I am eager to join a top-tier AI development team. Together,
-        we can tackle complex AI challenges and drive innovation to new heights.
-        Let's shape the future of artificial intelligence and create
-        extraordinary solutions.
+        The Coding Premier League Event is designed as a league of competitive coding contests with the fundamental goal of enhancing participants' skills. This platform allows participants to delve deeper into the realm of competitive programming, providing invaluable exposure to this field.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      {/* <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
-      </div>
+      </div> */}
     </>
   );
 };
