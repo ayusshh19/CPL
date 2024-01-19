@@ -52,11 +52,11 @@ const About = () => {
     </div>
   
     <div className='md:col-span-5 col-span-12 md:row-span-2  grid grid-cols-6 gap-2'>
-      <div className='col-span-3 gap-2 grid max-w-full md:max-w-none'>
+      <div className='col-span-3 gap-2 grid max-w-full md:max-w-none  max-md:mt-4'>
         <img className='rounded-lg w-full md:w-auto' src={img} alt="" />
         <img className='rounded-md w-full md:w-auto' src={img} alt="" />
       </div>
-      <div className='col-span-3 grid items-center'>
+      <div className=' col-span-3 grid items-center'>
         <img className='rounded-md w-full md:w-[12rem]' src={img} alt="" />
       </div>
     </div>

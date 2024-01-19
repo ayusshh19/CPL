@@ -110,8 +110,6 @@ const experiences = [
       'Prize: Goodies, Trophies And Certificate To All Finalist',
       'Registration Fee for single student - 30rs.',
       'Registration Fee for Team of two - 50rs.',
-
-      
     ],
   },
   {
@@ -142,10 +140,8 @@ const experiences = [
       'Scoring System - Points based on question difficulty. ',
       'Certificates- All participants in round 2 receive certificates of participation. ',
       'Final Winner Determination - The participant with the highest score in round 2 is declared the overall winner. ',
- 
     ],
   },
- 
 ];
 
 const testimonials = [
@@ -177,66 +173,66 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'GAN-DAPT',
+    name: 'PRIZES',
     description:
-      'Leveraging domain-invariant image translations, I combined domain adaptation and generalization techniques for improved image segmentation.',
+      'Participate in the Coding Premier League for a chance to not only showcase your coding prowess but also win exciting goodies, prestigious trophies, and a certificate of achievement – a tangible testament to the skills and dedication of all our finalists',
     tags: [
       {
-        name: 'DaSeGAN',
+        name: 'happy-coding',
         color: 'blue-text-gradient',
       },
       {
-        name: 'DaSeGAN-S',
+        name: 'cpl',
         color: 'green-text-gradient',
       },
       {
-        name: 'DaSeGAN-T',
+        name: 'dmce',
         color: 'pink-text-gradient',
       },
     ],
-    image: gan_dapt,
+    image:
+      'https://miro.medium.com/v2/resize:fit:828/format:webp/0*Z3ZZOVYurfxEiK1p',
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'Neuro Drive',
+    name: 'Prerequisites',
     description:
-      'Successfully trained a cutting-edge self-driving car using Convolution neural networks (CNN) utilizing a state-of-the-art simulator provided by Udacity.',
+      'a foundational understanding of data structures, familiarity with any programming language, and proficiency in essential concepts such as conditional statements, loops, and variables. These prerequisites will set the stage for a rewarding and challenging coding experience.',
     tags: [
       {
-        name: 'Opencv-python',
+        name: 'data-structure',
         color: 'blue-text-gradient',
       },
       {
-        name: 'Pandas',
+        name: 'loops',
         color: 'green-text-gradient',
       },
       {
-        name: 'Numpy',
+        name: 'if-else',
         color: 'pink-text-gradient',
       },
     ],
-    image: neuro_drive,
+    image:
+      'https://www.mooc.org/hs-fs/hubfs/learn-programming-career-jpg.jpeg?width=750&name=learn-programming-career-jpg.jpeg',
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'Market Value Predictor',
+    name: 'Date And Time',
     description:
-      "I developed a powerful regression model using machine learning algorithms to predict professional football players' market value accurately.",
+      'Save the date! The Coding Premier League hackathon is set to take place offline on January 16, 2024. Prepare for an immersive coding experience that encourages focused collaboration and showcases your skills in this unique mode.',
     tags: [
       {
-        name: 'Python',
+        name: 'date',
         color: 'blue-text-gradient',
       },
       {
-        name: 'Linear Regression',
+        name: 'time',
         color: 'green-text-gradient',
       },
-      {
-        name: 'Numpy',
-        color: 'pink-text-gradient',
-      },
+      
     ],
-    image: market_predict,
+    image:
+      'https://www.groovypost.com/wp-content/uploads/2021/06/time-clock-calendar-featured.jpg',
     source_code_link:
       'https://github.com/ESKINDERTSEGAYE/Project-Market-Value-Predictor',
   },
