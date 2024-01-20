@@ -1,0 +1,9 @@
+.text-stroke {
+    -webkit-text-stroke: 3px white;
+   color:transparent;
+  }
+@media (max-width:768px) {
+    .text-stroke {
+        -webkit-text-stroke: 1px white;
+      }
+}

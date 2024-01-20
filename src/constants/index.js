@@ -119,7 +119,6 @@ const experiences = [
     iconBg: '#FFFFFF',
     date: '11 AM To 12.30 PM ',
     points: [
-      'Timing - ....',
       'Question Format - 10 question , easy to moderate.',
       'Elimination Round - Assessment after 10 questions.',
       'Using Google for Reference - Allowed during scheduled 25-minute breaks.',
@@ -133,7 +132,6 @@ const experiences = [
     iconBg: '#FFFFFF',
     date: '2 PM To 4 PM',
     points: [
-      'Timing - ....',
       'Qualification - Only the top 10 participants from round 1 proceed to round 2. ',
       'Question Format - Similar to round 1, with a mix of difficulties. ',
       'Using Google for Reference - Participants can use Google for reference during scheduled 15-minute breaks. ',
