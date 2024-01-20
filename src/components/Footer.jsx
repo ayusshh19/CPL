@@ -40,7 +40,7 @@ const Footer = () => {
 
       {/* Second Row - Bottom Copyright Text */}
       <div className="mt-2 md:mt-4" style={{ fontSize: '16px', fontFamily: 'Arial, sans-serif' }}>
-        <p>&copy; 2022 Developed By Technical Team Of CSI DMCE With ❤️ </p>
+        <p>&copy; 2024 Developed By Technical Team Of CSI DMCE With ❤️ </p>
       </div>
     </footer>
   );
