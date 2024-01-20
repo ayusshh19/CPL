@@ -50,7 +50,7 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} id='details'>
         <p className={styles.sectionSubText}>What Will Be The Event</p>
         <h2 className={styles.sectionHeadText}>Event Details</h2>
       </motion.div>
