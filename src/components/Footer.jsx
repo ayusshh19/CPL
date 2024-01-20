@@ -8,7 +8,7 @@ import dmceloc from  '../assets/footer/dmceloc.png'
 const Footer = () => {
   const personcontact = [
     {name:"Pushkaraj Chaudhary",numbers:"+91 7028617298" ,position:"General Secretary"},
-    {name:"Roshani Nalawade",numbers:"+91 7028617298" ,position:"CO-GS"},
+    {name:"Roshani Nalawade",numbers:"+91 9321470733" ,position:"CO General Secretary"},
     {name:"Ayush Shukla",numbers:"+91 9892250482" ,position:"Technical Head"},
   ]
   return (
@@ -25,10 +25,10 @@ const Footer = () => {
           {/* List with Phone Icons */}
           <ul className="list-none p-0 text-center" style={{ fontSize: '18px', fontFamily: 'Arial, sans-serif' }}>
             {personcontact.map((contactPerson) => (
-              <li key={contactPerson.numbers} className="flex items-center justify-left mb-2 md:mb-4">
+              <li key={contactPerson.numbers} onclick={window.open(`tel:${contactPerson.numbers}`)} className="flex items-center justify-left cursor-pointer mb-2 md:mb-4">
                 <img src={phone} alt="Phone Icon" className="mr-2" style={{ width: '20px', height: '20px', fill: 'white' }} />
                 <div className='w-full text-center'><h4 className=' font-bold'>{contactPerson.name}</h4>
-                <h4 className='text-md'>{contactPerson.position}</h4></div>
+                <h4 className='text-sm text-secondary'>{contactPerson.position}</h4></div>
               </li>
             ))}
           </ul>

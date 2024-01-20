@@ -217,7 +217,7 @@ const projects = [
   {
     name: 'Date And Time',
     description:
-      'Save the date! The Coding Premier League hackathon is set to take place offline on January 16, 2024. Prepare for an immersive coding experience that encourages focused collaboration and showcases your skills in this unique mode.',
+      'Save the date! The Coding Premier League hackathon is set to take place offline on January 25, 2024. Prepare for an immersive coding experience that encourages focused collaboration and showcases your skills in this unique mode.',
     tags: [
       {
         name: 'date',
