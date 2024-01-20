@@ -79,7 +79,7 @@ const Contact = () => {
         <EarthCanvas />
         
       </motion.div>
-      <div className="absolute xs:bottom-10 bottom-0 w-full z-50 flex justify-center items-center">
+      <div className="absolute xs:bottom-10 bottom-10 w-full z-200 flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div

@@ -1,6 +1,11 @@
 import React from 'react';
 
 const Footer = () => {
+  const personcontact = [
+    {name:"Pushkaraj Chaudhary",numbers:"+91 7028617298" ,position:"General Secretary"},
+    {name:"Roshani Nalawade",numbers:"+91 7028617298" ,position:"CO-GS"},
+    {name:"Ayush Shukla",numbers:"+91 9892250482" ,position:"Technical Head"},
+  ]
   return (
     <footer className="bg-[#151030] text-white py-4 text-center flex flex-col">
       {/* First Row - Left and Right Divs */}
@@ -14,10 +19,11 @@ const Footer = () => {
         <div className="w-full md:w-[50%] flex flex-col items-center p-4 md:p-8">
           {/* List with Phone Icons */}
           <ul className="list-none p-0 text-center" style={{ fontSize: '18px', fontFamily: 'Arial, sans-serif' }}>
-            {[1, 2, 3].map((contactPerson) => (
-              <li key={contactPerson} className="flex items-center mb-2 md:mb-4">
-                <img src="./assets/footer/phone.svg" alt="Phone Icon" className="mr-2" style={{ width: '20px', height: '20px', fill: 'white' }} />
-                Contact Person {contactPerson}
+            {personcontact.map((contactPerson) => (
+              <li key={contactPerson.numbers} className="flex items-center justify-left mb-2 md:mb-4">
+                <img src="src/assets/footer/phone.svg" alt="Phone Icon" className="mr-2" style={{ width: '20px', height: '20px', fill: 'white' }} />
+                <div className='w-full text-center'><h4 className=' font-bold'>{contactPerson.name}</h4>
+                <h4 className='text-md'>{contactPerson.position}</h4></div>
               </li>
             ))}
           </ul>
@@ -31,11 +37,12 @@ const Footer = () => {
               { name: 'mail', link: 'your-link-mail' },
             ].map((icon, index) => (
               <a key={index} href={icon.link} target="_blank" rel="noopener noreferrer" className="mx-2">
-                <img src={`./assets/footer/${icon.name}.svg`} alt={`${icon.name} Icon`} className="cursor-pointer" style={{ width: '2.5rem', height: '2.5rem' }} />
+                <img src={`src/assets/footer/${icon.name}.svg`} alt={`${icon.name} Icon`} className="cursor-pointer" style={{ width: '2.5rem', height: '2.5rem' }} />
               </a>
             ))}
           </div>
         </div>
+      
       </div>
 
       {/* Second Row - Bottom Copyright Text */}
