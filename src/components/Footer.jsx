@@ -16,7 +16,7 @@ const Footer = () => {
           <ul className="list-none p-0 text-center" style={{ fontSize: '18px', fontFamily: 'Arial, sans-serif' }}>
             {[1, 2, 3].map((contactPerson) => (
               <li key={contactPerson} className="flex items-center mb-2 md:mb-4">
-                <img src="src/assets/footer/phone.svg" alt="Phone Icon" className="mr-2" style={{ width: '20px', height: '20px', fill: 'white' }} />
+                <img src="./assets/footer/phone.svg" alt="Phone Icon" className="mr-2" style={{ width: '20px', height: '20px', fill: 'white' }} />
                 Contact Person {contactPerson}
               </li>
             ))}
@@ -31,7 +31,7 @@ const Footer = () => {
               { name: 'mail', link: 'your-link-mail' },
             ].map((icon, index) => (
               <a key={index} href={icon.link} target="_blank" rel="noopener noreferrer" className="mx-2">
-                <img src={`src/assets/footer/${icon.name}.svg`} alt={`${icon.name} Icon`} className="cursor-pointer" style={{ width: '2.5rem', height: '2.5rem' }} />
+                <img src={`./assets/footer/${icon.name}.svg`} alt={`${icon.name} Icon`} className="cursor-pointer" style={{ width: '2.5rem', height: '2.5rem' }} />
               </a>
             ))}
           </div>
