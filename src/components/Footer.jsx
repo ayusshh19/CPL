@@ -25,7 +25,7 @@ const Footer = () => {
           {/* List with Phone Icons */}
           <ul className="list-none p-0 text-center" style={{ fontSize: '18px', fontFamily: 'Arial, sans-serif' }}>
             {personcontact.map((contactPerson) => (
-              <li key={contactPerson.numbers} onclick={window.open(`tel:${contactPerson.numbers}`)} className="flex items-center justify-left cursor-pointer mb-2 md:mb-4">
+              <li key={contactPerson.numbers} className="flex items-center justify-left cursor-pointer mb-2 md:mb-4">
                 <img src={phone} alt="Phone Icon" className="mr-2" style={{ width: '20px', height: '20px', fill: 'white' }} />
                 <div className='w-full text-center'><h4 className=' font-bold'>{contactPerson.name}</h4>
                 <h4 className='text-sm text-secondary'>{contactPerson.position}</h4></div>
