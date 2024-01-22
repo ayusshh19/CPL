@@ -117,7 +117,7 @@ const experiences = [
     company_name: 'Adani Institute of Infrastructure Engineering',
     icon: adani,
     iconBg: '#FFFFFF',
-    date: '11 AM To 12.30 PM ',
+    date: '2 PM To 3 PM ',
     points: [
       'Question Format - 10 question , easy to moderate.',
       'Elimination Round - Assessment after 10 questions.',
@@ -130,7 +130,7 @@ const experiences = [
     company_name: 'BN Technologies',
     icon: bn_software,
     iconBg: '#FFFFFF',
-    date: '2 PM To 4 PM',
+    date: '3:30 PM To 5 PM',
     points: [
       'Qualification - Only the top 10 participants from round 1 proceed to round 2. ',
       'Question Format - Similar to round 1, with a mix of difficulties. ',
