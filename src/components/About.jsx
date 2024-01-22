@@ -59,7 +59,7 @@ const About = () => {
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSdHx3qcg79-FBRWvxL-s2GyhwFwoyCQ0rCkj7iiHVb8wPPEvA/viewform"
             target='___blank'
-            title="Get quote now"
+            title="Register Now"
             class="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-gray-900 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
             role="button"
           >
